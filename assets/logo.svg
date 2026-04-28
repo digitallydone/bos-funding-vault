@@ -1,0 +1,10 @@
+<svg width="720" height="220" viewBox="0 0 720 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="220" rx="28" fill="#FFF9F0"/>
+  <rect x="26" y="26" width="168" height="168" rx="32" fill="#0E6B5C"/>
+  <circle cx="110" cy="110" r="52" fill="#FFF9F0"/>
+  <path d="M110 66C119.517 66 128.643 69.7803 135.373 76.5099C142.102 83.2394 145.882 92.3653 145.882 101.882V109.353H121.206V101.882C121.206 98.9097 120.025 96.0594 117.923 93.9577C115.822 91.8561 112.972 90.6754 110 90.6754C107.028 90.6754 104.178 91.8561 102.077 93.9577C99.9754 96.0594 98.7947 98.9097 98.7947 101.882V129.647C98.7947 139.164 95.0144 148.29 88.2848 155.019C81.5552 161.749 72.4294 165.529 62.9123 165.529V140.853C65.8848 140.853 68.735 139.672 70.8367 137.571C72.9383 135.469 74.1191 132.619 74.1191 129.647V101.882C74.1191 92.3653 77.8993 83.2394 84.6289 76.5099C91.3585 69.7803 100.484 66 110 66Z" fill="#0E6B5C"/>
+  <path d="M157.088 54.8235H179.412L121.941 167.176H99.6172L157.088 54.8235Z" fill="#C68D2E"/>
+  <text x="226" y="86" fill="#6B5F55" font-family="Georgia, serif" font-size="20" letter-spacing="1.6">BOSs | Business Opportunity Systems</text>
+  <text x="226" y="142" fill="#1F1A17" font-family="Georgia, serif" font-size="44" font-weight="700">Funding Intelligence Vault</text>
+  <text x="226" y="176" fill="#0E6B5C" font-family="Georgia, serif" font-size="22">Grow. Protect. Fund.</text>
+</svg>
