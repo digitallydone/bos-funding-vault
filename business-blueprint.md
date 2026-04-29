@@ -106,7 +106,7 @@ Why this market first:
 
 Lead magnet:
 - 50 Canadian Grants for SMEs
-- 25 Funding Sources for Nonprofits
+- The Canadian Funding Landscape: Where to Start
 - Monthly grant deadline calendar
 
 Purpose:

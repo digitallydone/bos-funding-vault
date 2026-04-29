@@ -2,7 +2,7 @@
 
 ## Title
 
-25 Funding Sources for Canadian Nonprofits
+The Canadian Funding Landscape: Where to Start
 
 ## Purpose
 
@@ -20,7 +20,7 @@ Give nonprofit leaders and grant-focused teams a faster way to identify where fu
 ### Page 1: Cover
 
 Title:
-25 Funding Sources for Canadian Nonprofits
+The Canadian Funding Landscape: Where to Start
 
 Subtitle:
 A practical starter guide for finding grants, public funding programs, and mission-aligned funding opportunities in Canada

@@ -169,7 +169,7 @@ Not Ready Yet
 
 Download the free list:
 
-25 Funding Sources for Canadian Nonprofits
+The Canadian Funding Landscape: Where to Start
 
 Use it to find new opportunities and join the waitlist for the full vault.
 

@@ -12,7 +12,7 @@ Fit gets evaluated too late.
 
 I’m building `Funding Intelligence Vault` to make that process more structured for Canadian nonprofits and grant-focused teams.
 
-If you want the free guide, `25 Funding Sources for Canadian Nonprofits`, send me a message and I’ll share it.
+If you want the free guide, `The Canadian Funding Landscape: Where to Start`, send me a message and I’ll share it.
 
 ## LinkedIn Post 2
 

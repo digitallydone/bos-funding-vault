@@ -18,7 +18,7 @@ Help Canadian nonprofits and grant-focused organizations find more relevant oppo
 
 ### Free
 
-25 Funding Sources for Canadian Nonprofits
+The Canadian Funding Landscape: Where to Start
 
 Purpose:
 - lead capture

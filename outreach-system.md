@@ -65,7 +65,7 @@ Best,
 
 ## Soft Lead Magnet Outreach
 
-Hi [First Name] — I put together a practical guide called `25 Funding Sources for Canadian Nonprofits` for teams that want a cleaner starting point for funding research. If it would be useful, I’m happy to send it over.
+Hi [First Name] — I put together a practical guide called `The Canadian Funding Landscape: Where to Start` for teams that want a cleaner starting point for funding research. If it would be useful, I’m happy to send it over.
 
 ## Beta Offer Follow-Up
 

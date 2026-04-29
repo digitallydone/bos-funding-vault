@@ -3,13 +3,13 @@
 ## Delivery Email: Free Guide
 
 Subject:
-Your guide: 25 Funding Sources for Canadian Nonprofits
+Your guide: The Canadian Funding Landscape
 
 Body:
 
 Hi [First Name],
 
-Here is your copy of `25 Funding Sources for Canadian Nonprofits`.
+Here is your copy of `The Canadian Funding Landscape: Where to Start`.
 
 This guide is designed to give you a cleaner starting point for funding research by highlighting public portals, recurring sources, and organizations worth monitoring.
 

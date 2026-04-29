@@ -82,7 +82,7 @@ By the end of 30 days, we should have:
 ### Tasks
 
 1. Create the lead magnet:
-- 25 Funding Sources for Canadian Nonprofits
+- The Canadian Funding Landscape: Where to Start
 
 2. Write the landing page:
 - Headline

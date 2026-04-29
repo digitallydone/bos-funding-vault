@@ -1,4 +1,4 @@
-# 25 Funding Sources for Canadian Nonprofits
+# The Canadian Funding Landscape: Where to Start
 
 Business Opportunity Systems
 
@@ -454,7 +454,7 @@ Best for organizations that can partner on evidence-building, pilot programs, or
 
 If you are building a serious funding pipeline, do not stop at collecting links.
 
-Turn these 25 sources into a working system:
+Turn these sources into a working system:
 - Track which sources fit your mission
 - Mark which are recurring
 - Capture deadlines and intake windows
