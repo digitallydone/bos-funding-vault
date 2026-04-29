@@ -6,20 +6,23 @@ Internal playbook for delivering Funding Intelligence Vault as a guided service,
 
 In every touchpoint, frame the product the same way:
 
-> Funding Intelligence Vault is your team's funding map. Not a list, not a search tool — a curated, maintained map of where Canadian funding lives, with notes on which territory is worth your time.
+> You're not getting a spreadsheet. You're getting a working environment — a curated, maintained map of where Canadian funding lives, already configured in your team's tool of choice, with notes on which territory is worth your time.
 
-That single sentence is the elevator pitch. It shows up in the welcome email, on `customer-start.html`, in the subject line of nurture emails, and in support replies. Repeat it.
+That single line is the elevator pitch. It shows up in the welcome email, on `customer-start.html`, on `request-access.html`, in the welcome Loom, and in support replies. Repeat it.
 
 ## Core onboarding assets
 
 | Asset | File | Purpose |
 |-------|------|---------|
 | Public guide | `guide-full.html` | Explains the funding landscape — reduces "where do I even start" overwhelm |
-| Request page | `request-access.html` | The form a visitor fills out to enter the funnel |
-| Thank-you page | `thank-you.html` | Holds the visitor while you reply manually |
-| Customer start page | `customer-start.html` | The first page a paying customer lands on |
-| Dataset | `funding-intelligence-vault-template.csv` | 75 curated Canadian funding sources |
-| Import guide | `vault-import-guide.md` | The Sheets/Airtable setup walkthrough — the bridge between CSV and working tracker |
+| Buy page | `request-access.html` | The page that takes payment via Paystack |
+| Thank-you page | `thank-you.html` | Confirms payment, embeds welcome video, points to workspace |
+| Customer start page | `customer-start.html` | Primary post-purchase landing — one click into the workspace |
+| Airtable template (built once) | `airtable-base-spec.md` | Build-once spec for the customer-facing Airtable template |
+| Sheets template (built once) | `sheets-template-setup.md` | Same idea for customers who prefer Sheets |
+| Welcome video | `welcome-loom-script.md` | 90-second Loom you record once, shown on thank-you page |
+| Dataset (secondary) | `funding-intelligence-vault-template.csv` | 75 curated rows — kept as fallback for teams that want raw data |
+| Import guide (secondary) | `vault-import-guide.md` | Manual Sheets/Airtable setup for the rare CSV-only customer |
 
 ## Recommended customer journey
 
@@ -33,37 +36,27 @@ That single sentence is the elevator pitch. It shows up in the welcome email, on
 
 ## Day 0 — Welcome email
 
-Send within 24 hours of receiving the early-access request.
+Send within 24 hours of payment. The full template lives in `customer-delivery-pack.md` — keep this playbook synced with it.
 
 **Subject:**
-Welcome to Funding Intelligence Vault — start here
+Your Funding Intelligence Vault workspace is ready
 
-**Body:**
+**Body opener (premium framing):**
 
-Hi [First Name],
+> Welcome — your workspace is ready.
+>
+> You're not getting a spreadsheet. You're getting a working environment: 75 curated Canadian funding sources, a kanban pipeline, status colours, and your starting shortlist already pre-flagged. Click once, work the next morning.
 
-Welcome — you're in.
+The email then walks them through:
 
-Funding Intelligence Vault is built to be your team's funding map: one place to see which Canadian sources are worth monitoring, which fit your mission, and which don't deserve any more of your attention.
+1. Watch the 90-second walkthrough video.
+2. Open the Airtable workspace (or Sheets) with one click.
+3. Switch to the **High priority** view, pick 3 rows that fit, write one sentence in `notes` for each.
+4. Assign a weekly review owner.
 
-**Your first 15 minutes:**
+End with the offer to send a personalized starting set if they reply with org type, province, and funding focus.
 
-1. Open the import guide. Pick Sheets or Airtable, follow the 5–8 minute setup. You'll have a working tracker, not just a CSV.
-2. Pick 3 rows that look right for [Organization]. Open their URLs and write one sentence each in the `notes` column about how they fit your work. That single pass is what turns this from "another spreadsheet" into a real funding map.
-3. Decide who on your team owns the weekly review.
-
-**Your access:**
-
-- Dataset (75 curated sources): [insert link]
-- Import guide (Sheets + Airtable): [insert link to `vault-import-guide.md`]
-- Free public guide: [insert link to `guide-full.html`]
-- Customer start page: [insert link to `customer-start.html`]
-
-I'll check in at the end of the week. If you want help narrowing best-fit sources before then, reply with your **organization type**, **province**, and **funding focus** — happy to point you straight at the strongest matches.
-
-Best,
-[Your Name]
-BOSs | Business Opportunity Systems
+See the full template in `customer-delivery-pack.md`.
 
 ## Day 3 — Shortlist help
 

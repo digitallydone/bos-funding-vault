@@ -95,15 +95,21 @@ If you deliver this in Airtable or Google Sheets:
   - health and wellbeing
   - community development
 
-## Premium perception tip
+## Premium perception — the workspace-first principle
 
-Do not send customers just the CSV with no context.
+Don't sell the customer a CSV. Sell them a working environment.
 
-Send:
-1. a short welcome email
-2. the dataset link
-3. the import guide link (`vault-import-guide.md`)
-4. a one-paragraph explanation of how to use it
-5. the full guide link (`guide-full.html`)
+The premium feel at $49 comes from the customer never having to assemble anything. The vault arrives configured: views, kanban, colours, working columns, automations, a starting shortlist already pre-flagged. The customer clicks once and lands inside their own copy in their own Drive or Airtable.
 
-That makes the product feel intentional and professional. The import guide is the bridge between "here's a CSV" and "here's a working tracker inside your tools" — without it, conversion to active use drops off fast.
+The default delivery sequence:
+
+1. **Welcome email** — leads with "your workspace is ready", not "here's a spreadsheet"
+2. **90-second Loom video** — embedded on the thank-you page and linked in the email; voice and face make the product feel human
+3. **Airtable template link** — primary path; one click into a fully configured base
+4. **Sheets template link** — equivalent, for teams that live in Google Workspace
+5. **Customer start page** — single web page that orients them to what's already built
+6. **CSV download** — kept as a secondary link for the rare team that wants raw data
+
+The CSV is no longer the product. It's a fallback. The Airtable/Sheets template *is* the product — that's what justifies $49 and that's what creates stickiness.
+
+Build-once specs live in `airtable-base-spec.md` and `sheets-template-setup.md`. Recording script lives in `welcome-loom-script.md`. Update those once and every customer click after gets the new version.

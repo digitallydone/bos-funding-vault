@@ -28,15 +28,15 @@
         </div>
       </nav>
       <section class="subpage-hero">
-        <span class="eyebrow">Early Access</span>
-        <h1>Request early access for your organization.</h1>
+        <span class="eyebrow">Early Access · $49</span>
+        <h1>Buy early access for your organization.</h1>
         <p class="lede">
           Funding Intelligence Vault is designed for nonprofit leaders, fundraising
           teams, and grant-focused organizations that want clearer visibility into
-          funding opportunities and a more structured working process.
+          funding opportunities and a more structured working process. One-time payment.
         </p>
         <div class="hero-actions">
-          <a class="button primary" data-config-link="contactLink" href="#">Request Early Access</a>
+          <a class="button primary" href="#buy-form">Buy Early Access</a>
           <a class="button secondary" data-config-link="onboardingLink" href="customer-start.html">See How It Works</a>
         </div>
       </section>
@@ -45,7 +45,17 @@
     <main class="shell section-stack">
       <section class="two-up">
         <article class="card content-card">
-          <h2>Who early access is best for</h2>
+          <h2>What you get for $49</h2>
+          <ul class="icon-list">
+            <li>A fully configured Airtable workspace — kanban pipeline, status colours, recommended views, all pre-built</li>
+            <li>Or the same as a Google Sheets template with conditional formatting and saved filter views</li>
+            <li>75 curated Canadian funding sources, 12&ndash;15 pre-flagged as your starting shortlist</li>
+            <li>A 90-second welcome video walking you through your workspace</li>
+            <li>Two-week personal onboarding follow-up with optional 15-min call</li>
+          </ul>
+        </article>
+        <article class="card content-card">
+          <h2>Who this is best for</h2>
           <ul class="icon-list">
             <li>Organizations actively searching for grants and public funding</li>
             <li>Teams that need a clearer way to track deadlines and opportunity fit</li>
@@ -53,26 +63,30 @@
             <li>Leaders who want less scattered research and more consistency</li>
           </ul>
         </article>
-        <article class="card content-card">
-          <h2>What happens next</h2>
-          <ul class="icon-list">
-            <li>Share a few details about your organization or funding needs</li>
-            <li>Receive the next-step information for early access</li>
-            <li>Review whether Funding Intelligence Vault is the right fit</li>
-            <li>Get started with a more organized funding workflow</li>
-          </ul>
-        </article>
       </section>
 
-      <section class="card form-card request-form-card">
+      <section class="card callout">
         <div>
-          <span class="eyebrow">Application</span>
-          <h2>Tell us a little about your organization.</h2>
+          <span class="eyebrow">What this isn't</span>
+          <h2>Not a CSV you have to assemble.</h2>
           <p>
-            Complete this short form to request early access. If the form endpoint
-            is connected, it will submit directly here. If not, your email app
-            will open with the details pre-filled so your request is still ready
-            to send.
+            You're not buying a spreadsheet. You're buying a working
+            environment that lands fully configured in your team's tool of
+            choice &mdash; views, pipeline, colours, automations already done.
+            Click once, work the next morning. The CSV is available as a
+            secondary download for teams that want it.
+          </p>
+        </div>
+      </section>
+
+      <section id="buy-form" class="card form-card request-form-card">
+        <div>
+          <span class="eyebrow">Checkout</span>
+          <h2>A few details, then secure payment.</h2>
+          <p>
+            Tell us a bit about your organization so the onboarding lands well —
+            then continue to a secure Paystack checkout. After payment you'll
+            land on a thank-you page with your access details.
           </p>
         </div>
         <form class="intake-form" data-intake-form method="post">
@@ -125,12 +139,12 @@
             <textarea name="notes" rows="4"></textarea>
           </label>
           <div class="form-actions full-span">
-            <button class="button primary" type="submit">Send Request</button>
+            <button class="button primary" type="submit" data-buy-button>Continue to Payment · $49</button>
             <a class="button secondary" data-config-link="onboardingLink" href="customer-start.html">See the Start Guide</a>
           </div>
           <p class="form-note full-span">
-            We typically review requests manually so the onboarding stays relevant
-            to your organization.
+            Payment is processed securely by Paystack. You'll be charged once and
+            receive your onboarding email within 24 hours.
           </p>
           <p class="form-contact full-span">
             Contact: <a data-config-email href="mailto:hello@example.com">hello@example.com</a>
@@ -141,17 +155,17 @@
 
       <section class="card callout">
         <div>
-          <span class="eyebrow">Ready</span>
-          <h2>Start the conversation.</h2>
+          <span class="eyebrow">Questions?</span>
+          <h2>Not ready to buy yet?</h2>
           <p>
-            If your team needs a better way to spot relevant opportunities,
-            organize funding research, and work with more confidence, request
-            early access and review the start guide while you wait.
+            Read the full landscape guide and the customer start page first —
+            both are free. If you have a fit question for your specific
+            organization, email us and we'll reply directly before you decide.
           </p>
         </div>
         <div class="hero-actions">
-          <a class="button primary" data-config-link="contactLink" href="#">Request Early Access</a>
-          <a class="button secondary" data-config-link="onboardingLink" href="customer-start.html">View Start Guide</a>
+          <a class="button primary" href="guide-full.html">Read the Free Guide</a>
+          <a class="button secondary" data-config-link="contactLink" href="#">Email Support</a>
         </div>
       </section>
     </main>
@@ -169,6 +183,7 @@
     </footer>
 
     <script src="config.js"></script>
+    <script src="https://js.paystack.co/v1/inline.js"></script>
     <script src="assets/site.js"></script>
   </body>
 </html>

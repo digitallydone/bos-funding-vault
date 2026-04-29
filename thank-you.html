@@ -10,13 +10,14 @@
   <body data-page="thanks">
     <main class="shell centered-screen">
       <section class="card thanks-card">
-        <span class="eyebrow">You're In</span>
-        <h1>Thank you. The next step is simple.</h1>
-        <p class="lede">
+        <span class="eyebrow" data-thanks-eyebrow>You're In</span>
+        <h1 data-thanks-heading>Thank you. The next step is simple.</h1>
+        <p class="lede" data-thanks-lede>
           Your request or interest has been captured. While you wait for the next
           step, use the customer start guide to see how the vault is designed to
           work in practice.
         </p>
+        <p class="form-note" data-thanks-reference hidden></p>
         <div class="two-up compact-grid">
           <article class="card content-card">
             <h2>1. Review the guide</h2>
@@ -35,5 +36,23 @@
     </main>
     <script src="config.js"></script>
     <script src="assets/site.js"></script>
+    <script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var ref = params.get("ref");
+        if (!ref) return;
+        var eyebrow = document.querySelector("[data-thanks-eyebrow]");
+        var heading = document.querySelector("[data-thanks-heading]");
+        var lede = document.querySelector("[data-thanks-lede]");
+        var refNote = document.querySelector("[data-thanks-reference]");
+        if (eyebrow) eyebrow.textContent = "Payment received";
+        if (heading) heading.textContent = "Thank you — your early access is confirmed.";
+        if (lede) lede.textContent = "We've received your payment. Your onboarding email will arrive within 24 hours. While you wait, open the customer start guide for the recommended first 20 minutes.";
+        if (refNote) {
+          refNote.textContent = "Reference: " + ref;
+          refNote.hidden = false;
+        }
+      })();
+    </script>
   </body>
 </html>

@@ -24,32 +24,37 @@ Best,
 
 ## Delivery Email: Early Access Purchase
 
-This is the Day 0 welcome email referenced in `customer-onboarding-playbook.md`. Send within 24 hours of the early-access request landing in Formspree.
+This is the Day 0 welcome email referenced in `customer-onboarding-playbook.md`. Send within 24 hours of payment.
 
 Subject:
-Welcome to Funding Intelligence Vault — start here
+Your Funding Intelligence Vault workspace is ready
 
 Body:
 
 Hi [First Name],
 
-Welcome — you're in.
+Welcome — your workspace is ready.
 
-Funding Intelligence Vault is built to be your team's funding map: one place to see which Canadian sources are worth monitoring, which fit your mission, and which don't deserve any more of your attention.
+You're not getting a spreadsheet. You're getting a working environment: 75 curated Canadian funding sources, a kanban pipeline, status colours, and your starting shortlist already pre-flagged. Click once, work the next morning.
 
-Your first 15 minutes:
+Your 15-minute first day:
 
-1. Open the import guide. Pick Sheets or Airtable, follow the 5–8 minute setup. You'll have a working tracker, not just a CSV.
-2. Pick 3 rows that look right for [Organization]. Open their URLs and write one sentence each in the `notes` column about how they fit your work. That single pass is what turns this from "another spreadsheet" into a real funding map.
-3. Decide who on your team owns the weekly review.
+1. Watch the 90-second walkthrough — [Insert welcomeVideoUrl]. It shows you exactly what's in your workspace and where to start.
+2. Open your workspace. One click:
+   - Airtable: [Insert airtableTemplateUrl]
+   - Or Google Sheets: [Insert sheetsTemplateUrl]
+3. Switch to the **High priority** view. Pick 3 of the pre-flagged rows that fit [Organization] best. Open their URLs and write one sentence each in `notes` about how they fit your work.
+4. Decide who on your team owns the weekly review and add them in the `owner` column.
 
 Your access:
-- Dataset (75 curated sources): [Insert dataset link]
-- Import guide (Sheets + Airtable): [Insert link to `vault-import-guide.md`]
-- Free public guide: [Insert link to `guide-full.html`]
+- Airtable workspace: [Insert airtableTemplateUrl]
+- Google Sheets workspace: [Insert sheetsTemplateUrl]
+- 90-second welcome video: [Insert welcomeVideoUrl]
 - Customer start page: [Insert link to `customer-start.html`]
+- Public landscape guide: [Insert link to `guide-full.html`]
+- Raw CSV (if you'd rather use your own tool): [Insert dataset link]
 
-I'll check in at the end of the week. If you want help narrowing best-fit sources before then, reply with your organization type, province, and funding focus — happy to point you straight at the strongest matches.
+I'll check in at the end of the week. If you want help narrowing the best-fit sources before then, reply with your organization type, province, and funding focus — I'll send back the rows I'd start with for an organization like yours.
 
 Best,
 [Your Name]
