@@ -40,19 +40,18 @@ You're not getting a spreadsheet. You're getting a working environment: 75 curat
 Your 15-minute first day:
 
 1. Watch the 90-second walkthrough — [Insert welcomeVideoUrl]. It shows you exactly what's in your workspace and where to start.
-2. Open your workspace. One click:
-   - Airtable: [Insert airtableTemplateUrl]
-   - Or Google Sheets: [Insert sheetsTemplateUrl]
-3. Switch to the **High priority** view. Pick 3 of the pre-flagged rows that fit [Organization] best. Open their URLs and write one sentence each in `notes` about how they fit your work.
+2. Open your workspace — one click copies it into your Google Drive: https://docs.google.com/spreadsheets/d/18Jhi4D0HyMQpcVPc84KzbGtNx2rpFx2FFnY999Ui7z4/copy
+3. Sort by `priority` and start with the 12–15 rows pre-flagged as High. Open their URLs and write one sentence each in `notes` about how they fit your work.
 4. Decide who on your team owns the weekly review and add them in the `owner` column.
 
 Your access:
-- Airtable workspace: [Insert airtableTemplateUrl]
-- Google Sheets workspace: [Insert sheetsTemplateUrl]
-- 90-second welcome video: [Insert welcomeVideoUrl]
+- Google Sheets workspace: https://docs.google.com/spreadsheets/d/18Jhi4D0HyMQpcVPc84KzbGtNx2rpFx2FFnY999Ui7z4/copy
 - Customer start page: [Insert link to `customer-start.html`]
+- 90-second welcome video: [Insert welcomeVideoUrl]
 - Public landscape guide: [Insert link to `guide-full.html`]
 - Raw CSV (if you'd rather use your own tool): [Insert dataset link]
+
+If you'd prefer this set up directly in your **Airtable** account, reply with your Airtable workspace name and I'll configure it for you within 24 hours — included in early access at no extra cost.
 
 I'll check in at the end of the week. If you want help narrowing the best-fit sources before then, reply with your organization type, province, and funding focus — I'll send back the rows I'd start with for an organization like yours.
 

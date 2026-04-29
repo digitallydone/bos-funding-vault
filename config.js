@@ -19,7 +19,7 @@ window.FIV_CONFIG = {
   // Airtable: Share → Share as template → Get share link (looks like https://airtable.com/.../shr...)
   // Sheets: take the regular share URL and replace /edit?... with /copy
   airtableTemplateUrl: "",
-  sheetsTemplateUrl: "",
+  sheetsTemplateUrl: "https://docs.google.com/spreadsheets/d/18Jhi4D0HyMQpcVPc84KzbGtNx2rpFx2FFnY999Ui7z4/copy",
   // Welcome video — Loom share link OR a self-hosted MP4 URL.
   // Used on thank-you.html and in the welcome email.
   welcomeVideoUrl: "",

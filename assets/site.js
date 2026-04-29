@@ -13,6 +13,16 @@
     var value = config[key];
     if (value) {
       node.setAttribute("href", value);
+      // External links (templates, video) get target=_blank so the customer
+      // doesn't lose the start page.
+      if (/^https?:\/\//.test(value) && key !== "contactLink") {
+        node.setAttribute("target", "_blank");
+        node.setAttribute("rel", "noopener");
+      }
+    } else if (node.hasAttribute("data-hide-when-empty")) {
+      // For optional links (e.g. Airtable template before it exists), hide
+      // the button entirely instead of leaving a dead "#" CTA on the page.
+      node.style.display = "none";
     }
   });
 
