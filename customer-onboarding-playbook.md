@@ -20,7 +20,7 @@ That single line is the elevator pitch. It shows up in the welcome email, on `cu
 | Customer start page | `customer-start.html` | Primary post-purchase landing — one click into the workspace |
 | Airtable template (built once) | `airtable-base-spec.md` | Build-once spec for the customer-facing Airtable template |
 | Sheets template (built once) | `sheets-template-setup.md` | Same idea for customers who prefer Sheets |
-| Welcome video | `welcome-loom-script.md` | 90-second Loom you record once, shown on thank-you page |
+| Welcome video (deferred to v2) | `welcome-loom-script.md` | 90-second Loom script ready when you decide to record |
 | Dataset (secondary) | `funding-intelligence-vault-template.csv` | 75 curated rows — kept as fallback for teams that want raw data |
 | Import guide (secondary) | `vault-import-guide.md` | Manual Sheets/Airtable setup for the rare CSV-only customer |
 
@@ -49,10 +49,9 @@ Your Funding Intelligence Vault workspace is ready
 
 The email then walks them through:
 
-1. Watch the 90-second walkthrough video.
-2. Open the Airtable workspace (or Sheets) with one click.
-3. Switch to the **High priority** view, pick 3 rows that fit, write one sentence in `notes` for each.
-4. Assign a weekly review owner.
+1. Open the Sheets workspace with one click.
+2. Switch to the **High priority** sort, pick 3 rows that fit, write one sentence in `notes` for each.
+3. Assign a weekly review owner.
 
 End with the offer to send a personalized starting set if they reply with org type, province, and funding focus.
 

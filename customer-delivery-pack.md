@@ -39,15 +39,13 @@ You're not getting a spreadsheet. You're getting a working environment: 75 curat
 
 Your 15-minute first day:
 
-1. Watch the 90-second walkthrough — [Insert welcomeVideoUrl]. It shows you exactly what's in your workspace and where to start.
-2. Open your workspace — one click copies it into your Google Drive: https://docs.google.com/spreadsheets/d/18Jhi4D0HyMQpcVPc84KzbGtNx2rpFx2FFnY999Ui7z4/copy
-3. Sort by `priority` and start with the 12–15 rows pre-flagged as High. Open their URLs and write one sentence each in `notes` about how they fit your work.
-4. Decide who on your team owns the weekly review and add them in the `owner` column.
+1. Open your workspace — one click copies it into your Google Drive: https://docs.google.com/spreadsheets/d/18Jhi4D0HyMQpcVPc84KzbGtNx2rpFx2FFnY999Ui7z4/copy
+2. Sort by `priority` and start with the 12–15 rows pre-flagged as High. Open their URLs and write one sentence each in `notes` about how they fit your work.
+3. Decide who on your team owns the weekly review and add them in the `owner` column.
 
 Your access:
 - Google Sheets workspace: https://docs.google.com/spreadsheets/d/18Jhi4D0HyMQpcVPc84KzbGtNx2rpFx2FFnY999Ui7z4/copy
 - Customer start page: [Insert link to `customer-start.html`]
-- 90-second welcome video: [Insert welcomeVideoUrl]
 - Public landscape guide: [Insert link to `guide-full.html`]
 - Raw CSV (if you'd rather use your own tool): [Insert dataset link]
 

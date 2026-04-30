@@ -1,5 +1,9 @@
 # Welcome Loom — 90-Second Script
 
+> **Status: deferred to v2.** Skipped for the v1 launch to ship faster. The
+> script below is ready when you decide to record — likely worth doing once
+> you have 5–10 customers and want to multiply the premium feel.
+
 This is the script for a 90-second welcome video to record after a customer's first payment lands. The goal is *human warmth* — not a polished corporate intro. Sit at your desk, screen-share the customer template, talk like you're walking a friend through what they just bought.
 
 ## Where it shows up

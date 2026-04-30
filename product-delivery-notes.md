@@ -101,14 +101,15 @@ Don't sell the customer a CSV. Sell them a working environment.
 
 The premium feel at $49 comes from the customer never having to assemble anything. The vault arrives configured: views, kanban, colours, working columns, automations, a starting shortlist already pre-flagged. The customer clicks once and lands inside their own copy in their own Drive or Airtable.
 
-The default delivery sequence:
+The default delivery sequence (v1):
 
 1. **Welcome email** — leads with "your workspace is ready", not "here's a spreadsheet"
-2. **90-second Loom video** — embedded on the thank-you page and linked in the email; voice and face make the product feel human
-3. **Airtable template link** — primary path; one click into a fully configured base
-4. **Sheets template link** — equivalent, for teams that live in Google Workspace
-5. **Customer start page** — single web page that orients them to what's already built
-6. **CSV download** — kept as a secondary link for the rare team that wants raw data
+2. **Sheets template link** — primary path; one click into a fully configured base in the customer's own Drive
+3. **Airtable** — offered as a white-glove setup ("reply with your Airtable workspace name"), kept off the self-serve path
+4. **Customer start page** — single web page that orients them to what's already built
+5. **CSV download** — kept as a secondary link for the rare team that wants raw data
+
+A 90-second welcome Loom is queued for v2 (script lives in `welcome-loom-script.md`) — the human voice multiplies premium feel but isn't load-bearing for a v1 launch.
 
 The CSV is no longer the product. It's a fallback. The Airtable/Sheets template *is* the product — that's what justifies $49 and that's what creates stickiness.
 
