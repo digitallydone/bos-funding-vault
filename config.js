@@ -24,15 +24,8 @@ window.FIV_CONFIG = {
   // Used on thank-you.html and in the welcome email.
   welcomeVideoUrl: "",
   paystack: {
-    // Public key from Paystack dashboard → Settings → API Keys & Webhooks → Public Key.
-    // Public keys are safe to commit (they live in client-side code on every Paystack-integrated site).
-    // Use pk_test_... while testing, swap to pk_live_... when going live.
-    publicKey: "",
-    // Currency code. Common values: NGN, GHS, KES, ZAR, USD.
-    // USD requires a Paystack account with USD enabled — confirm in your Paystack settings before using it.
+    publicKey: "pk_live_9f246a1b01ecb07adc6f28865484fb76d6161b5d",
     currency: "USD",
-    // Amount in the smallest unit of the chosen currency (kobo/cents/pesewas).
-    // 4900 = $49.00 USD or ₦49.00 NGN. Adjust if you change the price.
     amountInSubunits: 4900,
     productLabel: "Funding Intelligence Vault — Early Access"
   },
